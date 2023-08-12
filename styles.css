@@ -142,7 +142,7 @@ img {
 .header__signup {
     display: flex;
     justify-content: left;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     margin-top: 5px;
     
 }
@@ -201,7 +201,14 @@ img {
 }
 
 .header__img--trusted {
-    width: 75%;
+    width: 80%;
+    opacity: 0.4;
+    padding-top: 20px;
 }
 
-
+.header__our--trusted {
+    text-align: left;
+    opacity: 0.3;
+    font-size: 14px;
+    font-weight: 900;
+}
