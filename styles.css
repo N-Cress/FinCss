@@ -461,3 +461,68 @@ img {
 #pricing {
     padding-top: 12vw;
 }
+
+.pricing__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 160px;
+}
+
+.pricing__header {
+    padding-bottom: 32px;
+    padding-right: 32px;
+}
+
+.pricing__title {
+    padding-bottom: 32px;
+}
+
+.pricing__para {
+    padding-bottom: 32px;
+    max-width: 576px;
+}
+
+.prices {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.price {
+    width: calc((100% /3) - (3 * 16px));
+    border-width: 1px;
+    border: solid;
+    border-color: grey;
+    height: 607.5px;
+    margin: 0px 16px;
+    
+}
+
+.price__box-cost {
+    display: flex;
+    flex-directioN: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid;
+    border-color: gray;
+}
+
+.box__header {
+    padding-bottom: 16px;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 48px;
+}
+
+.box__price {
+    padding-bottom: 16px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.box__monthly {
+    padding-bottom: 16px;
+}
