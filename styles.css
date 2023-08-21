@@ -737,6 +737,62 @@ ul {
     max-width: 500px;
 }
 
+/* CONTACT */
+
+#contact {
+    padding-top: 16vh;
+}
+
+.contact__row {
+    display: flex;
+    justify-content: center;
+    background-color: #6415ff;
+    margin-bottom: 192px;
+    padding: 96px 0;
+    border-radius: 8px;
+    align-items: center;
+    
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    max-width: 960px;
+}
+
+.contact__text {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    width: 50%;
+    line-height: 1.6;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding-left: 72px;
+}
+
+.btn-started {
+    background-color: #f56565;
+    padding: 22px 44px;
+    border-radius: 48px;
+    font-weight: 700;
+}
+
+.btn-contact {
+    background-color: #6415ff;
+    border-color: #525d6f;
+    border: solid;
+    border-width: 1px;
+    padding: 22px 44px;
+    border-radius: 48px;
+    margin-left: 24px;
+    font-weight: 700;
+}
+
 /* FOOTER */
 
 .footer__container {
