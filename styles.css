@@ -2,7 +2,7 @@
 
 * {
   font-family: Inter, system-ui;
-  padding: 0;
+  padding: 0 ;
   margin: 0;
   box-sizing: border-box;
 
@@ -13,8 +13,8 @@ html {
 }
 
 body {
-    margin: 0px;
-    height: 1600px;
+    width: 100%;
+   
 }
 
 header {
@@ -41,6 +41,7 @@ ul {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
+    padding: 0 24px;
 }
 
 .purple {
@@ -86,6 +87,14 @@ ul {
     background-color: #3c0d99;
 }
 
+.btn__menu {
+    background-color: transparent;
+    font-size: 24px;
+    border: none;
+    color: black;
+    display: none;
+}
+
 /* NAV */
 
 .nav__container {
@@ -94,6 +103,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 64px;
+    
 }
 
 .logo {
@@ -138,6 +148,7 @@ ul {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
+    
 }
 
 .header__info {
@@ -145,7 +156,7 @@ ul {
     flex-direction: column;
     text-align: center;
     width: 40%;
-    height: 556px;
+ 
 }
 
 .header__img--wrapper {
@@ -321,6 +332,11 @@ ul {
 
 #pros {
     padding-top: 12vw;
+}
+
+.pro {
+    display: flex;
+    margin-bottom: 64px;
 }
 
 .pro {
@@ -751,13 +767,14 @@ ul {
     padding: 96px 0;
     border-radius: 8px;
     align-items: center;
-    
+    margin: 0 24px 192px 24px;
 }
 
 .contact {
     display: flex;
     justify-content: center;
     max-width: 960px;
+    height: 144px;
 }
 
 .contact__text {
@@ -799,14 +816,16 @@ ul {
     width: 100%;
     background-color: #6415ff;
     height: 56vh;
+    
 }
 
 .footer__row {
     color: white;
     display: flex;
     align-items: center;
-    width: 100%;
+    max-width: 1280px;
     flex-direction: column;
+    padding: 8px;
 }
 
 .links {
@@ -835,12 +854,13 @@ ul {
 
 
 .logocopyright {
-    padding-top: 54px;
+    padding-top: 44px;
     display: flex;
     width: 100%;
     max-width: 1280px;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .footer__logo {
@@ -863,3 +883,183 @@ ul {
     padding: 8px;
     margin: 0 8px;
 }
+
+@media (max-width: 1366px) {
+    .header {
+        
+    }
+    
+    .title {
+        font-size: 32px;
+    }
+    
+    .para {
+        font-size: 16px;
+        
+    }
+   .contact {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 566px;
+    text-align: center;
+   }
+   .contact__text {
+    width: 100%;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 24px;
+}
+
+
+.footer__row {
+    max-width: 768px;
+}
+
+.nav__links {
+    display: none;
+}
+
+.btn__menu {
+    display: block;
+}
+
+.links {
+    max-width: 768px;
+    
+}
+
+.prices {
+    flex-direction: column;
+}
+
+.price {
+    margin-bottom: 48px;
+    width: 100%;
+    max-width: 480px;
+}
+
+
+
+.pro {
+    margin-bottom: 24px;
+}
+
+.pro__alt {
+    margin-bottom: 24px;
+}
+
+.values {
+    flex-direction: column;
+}
+
+.value {
+    padding: 6px 12px;
+}
+
+.pro__img {
+    width: 50%;
+}
+
+.header__container {
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.header__info {
+    width: 100%;
+    max-width: 768px;
+    display: flex;
+    align-items: center;
+}
+
+.header__img--wrapper {
+    padding-top: 24px;
+     width: 100%;
+     max-width: 768px;
+}
+
+.header__title {
+    font-size: 32px;
+}
+
+.header__para {
+   font-size: 16px;
+}
+
+
+.header__form {
+    border: solid;
+    color: #d6dee6;
+    border-radius: 40px;
+    padding: 8px 5px;
+    border-width: 2px;
+    display: flex;
+    justify-content: left;
+    overflow: hidden;
+}
+
+}
+
+
+/* @media (max-width: 768px) {
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    .book {
+        width: 50%;
+    }
+    .btn {
+        font-size: 12px;
+    }
+    .highlight {
+        padding: 0 12px;
+    }
+}
+
+@media (max-width: 550px) {
+    .nav__link {
+        display: none;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+
+    .highlight__img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .highlight {
+        padding: 0px;
+    }
+
+    .highlight__subtitle {
+        font-size: 16px;
+    }
+    
+    .highlight__para {
+        font-size: 12px;
+    }
+    .btn__menu {
+        display: block;
+    }
+    .highlight {
+        width: 100%;
+      }
+    
+      .highlight:not(:last-child) {
+        margin-bottom: 24px;
+      }
+} */
