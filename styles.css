@@ -885,10 +885,6 @@ ul {
 }
 
 @media (max-width: 1366px) {
-    .header {
-        
-    }
-    
     .title {
         font-size: 32px;
     }
